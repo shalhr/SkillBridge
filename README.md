@@ -67,7 +67,7 @@ Dasbor terpusat untuk mengelola semua permintaan, notifikasi masuk, dan status k
 
 ## Target Pengguna
 
-| Segmen | Deskripsi | Kebutuhan Utama |
+| Target | Deskripsi | Kebutuhan Utama |
 |--------|-----------|-----------------|
 | **Mahasiswa Teknik / Informatika** | Memiliki kemampuan teknis (coding, data, sistem) namun ingin mengaplikasikan keahlian ke proyek nyata | Mencari co-founder dengan latar belakang bisnis atau desain |
 | **Mahasiswa Bisnis / Manajemen** | Memiliki ide bisnis dan kemampuan strategi namun tidak bisa membangun produk sendiri | Mencari technical co-founder (developer) |
@@ -81,128 +81,23 @@ Dasbor terpusat untuk mengelola semua permintaan, notifikasi masuk, dan status k
 
 ### 1. Landing Page
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  [LOGO SkillBridge]              [Masuk]  [Daftar Gratis]       │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                   │
-│         🚀 Bangun Startupmu Bersama Orang yang Tepat            │
-│    "Tukar Keahlianmu. Temukan Co-Foundermu. Mulai Sekarang."    │
-│                                                                   │
-│              [ Mulai Matching ]   [ Lihat Proyek ]               │
-│                                                                   │
-│  ┌──────────┐   ┌──────────┐   ┌──────────┐   ┌──────────┐     │
-│  │👥 1,240  │   │💡 348    │   │🤝 520    │   │🏆 89     │     │
-│  │ Pengguna │   │ Proyek   │   │Kemitraan │   │Kompetisi │     │
-│  └──────────┘   └──────────┘   └──────────┘   └──────────┘     │
-│                                                                   │
-│  CARA KERJA:                                                      │
-│  [1. Buat Profil] → [2. Post/Cari Proyek] → [3. Match & Kolaborasi] │
-│                                                                   │
-└─────────────────────────────────────────────────────────────────┘
-```
+![LandingPage](img/1.png)
 
 ### 2. Halaman Profil Pengguna
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  ← Kembali                                          [Edit Profil]│
-├───────────────────┬─────────────────────────────────────────────┤
-│                   │                                              │
-│   [ Foto Profil ] │  Andi Pratama                               │
-│                   │  🔴 HACKER  |  Bandung, Indonesia           │
-│   ████████████    │  ⭐ 4.8 / 5.0  |  12 Proyek Selesai        │
-│                   │                                              │
-│                   │  "Saya fullstack developer dengan passion di │
-│   [Hubungi]       │   bidang fintech dan edtech."               │
-│   [Undang ke Tim] │                                              │
-├───────────────────┴─────────────────────────────────────────────┤
-│  KEAHLIAN (Skills)                                               │
-│  [React.js] [Node.js] [PostgreSQL] [Python] [Figma]            │
-├─────────────────────────────────────────────────────────────────┤
-│  PROYEK AKTIF                                                     │
-│  ┌─────────────────────────────────────────────────────────┐    │
-│  │ 💡 EduMatch App  •  Butuh: Hustler, Hipster             │    │
-│  │    Status: Mencari Tim  •  Kompetisi: GEMASTIK XIX      │    │
-│  └─────────────────────────────────────────────────────────┘    │
-└─────────────────────────────────────────────────────────────────┘
-```
+![UserProfile](img/2.png)
 
 ### 3. Matchmaking Dashboard
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  Dashboard Matchmaking                          [🔔 3 Notifikasi]│
-├──────────────────┬──────────────────────────────────────────────┤
-│  FILTER          │  REKOMENDASI UNTUKMU                         │
-│  ─────────────   │  ─────────────────────────────               │
-│  Peran:          │  ┌────────────────────────────────┐          │
-│  ☑ Hacker        │  │ 👤 Sarah M.  •  🎨 HIPSTER     │          │
-│  ☑ Hustler       │  │ Keahlian: Figma, Branding, UX  │          │
-│  ☑ Hipster       │  │ 🎯 Cocok 92% dengan proyekmu   │          │
-│                  │  │            [Undang ke Tim]      │          │
-│  Keahlian:       │  └────────────────────────────────┘          │
-│  [React    ✕]    │                                              │
-│  [Bisnis   ✕]    │  ┌────────────────────────────────┐          │
-│  + Tambah        │  │ 👤 Budi R.  •  📊 HUSTLER      │          │
-│                  │  │ Keahlian: Marketing, Pitch, BD  │          │
-│  Tipe:           │  │ 🎯 Cocok 87% dengan proyekmu   │          │
-│  ○ Cari Orang    │  │            [Undang ke Tim]      │          │
-│  ○ Cari Proyek   │  └────────────────────────────────┘          │
-└──────────────────┴──────────────────────────────────────────────┘
-```
+![MatchmakingDashboard](img/3.png)
 
 ### 4. Project Pitch Board & Detail Proyek
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  Project Pitch Board                         [+ Post Proyek Baru]│
-├─────────────────────────────────────────────────────────────────┤
-│  ┌─────────────────────────────────────────────────────────┐    │
-│  │  💡 EduMatch — Platform Belajar Kolaboratif             │    │
-│  │  👤 Founder: Andi P.  •  📅 Dibuat: 2 hari lalu        │    │
-│  │  📝 "Aplikasi yang mencocokkan siswa dengan tutor         │    │
-│  │      berdasarkan gaya belajar menggunakan AI..."        │    │
-│  │                                                          │    │
-│  │  Slot Tim yang Dibutuhkan:                              │    │
-│  │  [✅ Hacker - Terisi] [❌ Hustler - Kosong] [❌ Hipster - Kosong] │
-│  │                                                          │    │
-│  │  🏷️ Tipe: Kompetisi  •  ⚡ Status: Aktif Rekrutmen     │    │
-│  │                          [ Lihat Detail ]  [ Apply ]    │    │
-│  └─────────────────────────────────────────────────────────┘    │
-│                                                                   │
-│  ┌─────────────────────────────────────────────────────────┐    │
-│  │  💡 GreenTrack — Carbon Footprint Tracker               │    │
-│  │  👤 Founder: Reni S.  •  📅 Dibuat: 5 hari lalu        │    │
-│  │  Slot Tim: [❌ Hacker] [✅ Hustler] [❌ Hipster]         │    │
-│  │                          [ Lihat Detail ]  [ Apply ]    │    │
-│  └─────────────────────────────────────────────────────────┘    │
-└─────────────────────────────────────────────────────────────────┘
-```
+![ProjectPitchBoard](img/4.png)
 
 ### 5. Hub Notifikasi & Kemitraan
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  Hub Kemitraan                                                   │
-├─────────────────┬───────────────────────────────────────────────┤
-│  MASUK (3)      │  DETAIL PERMINTAAN                            │
-│  ─────────────  │  ────────────────────────────────             │
-│  ● Sarah M.     │  👤 Sarah Maharani ingin bergabung ke         │
-│    ingin join   │     proyekmu: "EduMatch"                      │
-│    EduMatch     │                                               │
-│    10 menit lalu│  Peran: 🎨 HIPSTER                           │
-│  ─────────────  │  Keahlian: Figma, Ilustrasi, UX Research      │
-│  ● Tim GreenApp │  Portofolio: [lihat-portofolio.com]           │
-│    mengundangmu │                                               │
-│    2 jam lalu   │  Pesan: "Saya tertarik dengan konsep           │
-│  ─────────────  │   EduMatch dan ingin berkontribusi di         │
-│  ● Kemitraan    │   bagian desain UI-nya."                      │
-│    EcoWaste     │                                               │
-│    diterima ✅  │        [✅ Terima]        [❌ Tolak]           │
-│    1 hari lalu  │                                               │
-└─────────────────┴───────────────────────────────────────────────┘
-```
+![NotificationHub](img/5.png)
 
 ---
 
