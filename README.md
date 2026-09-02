@@ -1,78 +1,66 @@
-# 🚀 SkillBridge — Co-Founder & Technopreneur Matchmaking Platform
+# SkillBridge — Co-Founder & Technopreneur Matchmaking Platform
 
-> *"Temukan rekan tim idealmu. Bangun startup-mu. Tukar keahlian, bukan uang."*
-
-Platform web yang menghubungkan para inovator muda untuk membangun startup, proyek IT, dan kompetisi bisnis — melalui sistem **pertukaran keahlian (skill sharing)** tanpa transaksi finansial.
+Platform web yang menghubungkan para inovator muda untuk membangun startup, proyek IT, dan kompetisi bisnis, melalui sistem pertukaran keahlian (skill sharing) tanpa transaksi finansial.
 
 ---
 
-## 👥 Anggota Kelompok
+## Anggota Kelompok
 
 | No | Nama Lengkap | NIM | Peran |
 |----|-------------|-----|-------|
-| 1  | [Nama Anggota 1] | [NIM] | Project Manager / Hustler |
-| 2  | [Nama Anggota 2] | [NIM] | Backend Developer / Hacker |
-| 3  | [Nama Anggota 3] | [NIM] | UI/UX Designer / Hipster |
-| 4  | [Nama Anggota 4] | [NIM] | Frontend Developer / Hacker |
-| 5  | [Nama Anggota 5] | [NIM] | Business Analyst / Hustler |
-
-> *Isi tabel di atas sesuai dengan anggota kelompok yang sebenarnya.*
+| 1  | [Aisha Al Haura] | [140810250006] | 
+| 2  | [Aliyah Putri Wardani] | [140810250015] | 
+| 3  | [Daniel Chang] | [140810250045] | 
 
 ---
 
-## ⚙️ Fungsi Platform
+## Fungsi Platform
 
-SkillBridge adalah **web platform matchmaking berbasis keahlian** yang berfungsi sebagai:
-
-### 1. 🧑‍💼 User Profiling & Kategorisasi Peran
+### 1. User Profiling & Kategorisasi Peran
 Pengguna mendaftarkan diri dan mengkategorikan dirinya ke dalam salah satu dari tiga arketipe:
-- **🧑‍💻 Hacker** — Pengembang, data scientist, atau teknisi teknis
-- **📊 Hustler** — Business developer, marketer, atau manajer proyek
-- **🎨 Hipster** — Desainer UI/UX, kreator konten, atau product researcher
+- **Hacker** — Pengembang, data scientist, atau teknisi teknis
+- **Hustler** — Business developer, marketer, atau manajer proyek
+- **Hipster** — Desainer UI/UX, kreator konten, atau product researcher
 
-### 2. 📋 Project Pitch Board
+### 2. Project Pitch Board
 Ruang bagi pendiri (founder) untuk memposting ide startup atau proyek dan mendeklarasikan keahlian apa yang mereka butuhkan untuk melengkapi tim.
 
-### 3. 🤝 Smart Matchmaking Engine
-Algoritma sistem yang mencocokkan pengguna berdasarkan **skill gap** — yaitu irisan antara keahlian yang ditawarkan pengguna (`user_skills`) dengan keahlian yang dibutuhkan proyek (`project_needs`).
+### 3. Smart Matchmaking Engine
+Algoritma sistem yang mencocokkan pengguna berdasarkan skill gap.
 
-### 4. 📨 Partnership Request System
+### 4. Partnership Request System
 Sistem undangan dan lamaran dua arah:
 - **Invite** — Founder mengundang talenta yang cocok
 - **Apply** — Talenta melamar ke proyek yang diminati
 - **Accept / Decline** — Manajemen keputusan kolaborasi
 
-### 5. 🔔 Notification & Partnership Hub
+### 5. Notification & Partnership Hub
 Dasbor terpusat untuk mengelola semua permintaan, notifikasi masuk, dan status kemitraan aktif.
 
 ---
 
 ## 🎯 Tujuan (SDG Alignment)
 
-Platform ini dirancang untuk memenuhi **dua poin Sustainable Development Goals (SDGs)**:
-
----
-
-### 🟡 SDG 8 — Pekerjaan Layak & Pertumbuhan Ekonomi
+### SDG 8 — Pekerjaan Layak & Pertumbuhan Ekonomi
 *(Decent Work and Economic Growth)*
 
-> **Target SDG 8.3 & 8.6:** Mendorong kebijakan pembangunan yang mendukung kegiatan produktif, penciptaan lapangan kerja yang layak, dan kewirausahaan — khususnya di kalangan pemuda.
+> Mendorong kebijakan pembangunan yang mendukung kegiatan produktif, penciptaan lapangan kerja yang layak, dan kewirausahaan, khususnya di kalangan pemuda.
 
 **Kontribusi platform:**
-- Mendorong **technopreneurship** dan **inovasi digital** di kalangan mahasiswa dan pemuda
+- Mendorong technopreneurship dan inovasi digital di kalangan mahasiswa dan pemuda
 - Memfasilitasi terbentuknya startup dan usaha rintisan baru melalui kolaborasi tim yang tepat
-- Mengurangi hambatan masuk (*barrier to entry*) bagi pemuda berbakat yang ingin membangun produk digital tetapi tidak memiliki tim lengkap
+- Mengurangi hambatan masuk (barrier to entry) bagi pemuda berbakat yang ingin membangun produk digital tetapi tidak memiliki tim yang lengkap
 
 ---
 
-### 🔵 SDG 17 — Kemitraan untuk Mencapai Tujuan
+### SDG 17 — Kemitraan untuk Mencapai Tujuan
 *(Partnerships for the Goals)*
 
-> **Target SDG 17.16 & 17.17:** Mendorong kemitraan multi-pemangku kepentingan yang efektif — termasuk kemitraan lintas disiplin antara individu.
+> Mendorong kemitraan multi-pemangku kepentingan yang efektif, termasuk kemitraan lintas disiplin antara individu.
 
 **Kontribusi platform:**
-- Memfasilitasi **kolaborasi lintas disiplin** (teknis × bisnis × kreatif) tanpa memerlukan modal finansial
-- Menerapkan prinsip **Skill Sharing** sebagai pengganti transaksi uang — keahlian sebagai modal utama
+- Memfasilitasi kolaborasi lintas disiplin tanpa memerlukan modal finansial
+- Menerapkan prinsip Skill Sharing sebagai pengganti transaksi uang.
 - Membangun ekosistem kemitraan yang sehat dan berkelanjutan di komunitas inovator muda
 
 ---
@@ -89,17 +77,12 @@ Platform ini dirancang untuk memenuhi **dua poin Sustainable Development Goals (
 
 **Rentang Usia Target:** 18 – 28 tahun  
 **Geografi Awal:** Mahasiswa & fresh graduate di Indonesia  
-**Bahasa Platform:** Indonesia (dengan opsi internasionalisasi di masa depan)
 
 ---
 
-## 🖼️ Mockup Kasar Sederhana
+## Mockup Kasar Sederhana
 
-> Berikut adalah wireframe tekstual (lo-fi mockup) untuk halaman-halaman utama platform.
-
----
-
-### 1. 🏠 Landing Page
+### 1. Landing Page
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -122,9 +105,7 @@ Platform ini dirancang untuk memenuhi **dua poin Sustainable Development Goals (
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
-
-### 2. 🧑 Halaman Profil Pengguna
+### 2. Halaman Profil Pengguna
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -150,9 +131,7 @@ Platform ini dirancang untuk memenuhi **dua poin Sustainable Development Goals (
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
-
-### 3. 🔍 Matchmaking Dashboard
+### 3. Matchmaking Dashboard
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -176,9 +155,7 @@ Platform ini dirancang untuk memenuhi **dua poin Sustainable Development Goals (
 └──────────────────┴──────────────────────────────────────────────┘
 ```
 
----
-
-### 4. 💡 Project Pitch Board & Detail Proyek
+### 4. Project Pitch Board & Detail Proyek
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -206,9 +183,7 @@ Platform ini dirancang untuk memenuhi **dua poin Sustainable Development Goals (
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
-
-### 5. 🔔 Hub Notifikasi & Kemitraan
+### 5. Hub Notifikasi & Kemitraan
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -234,7 +209,7 @@ Platform ini dirancang untuk memenuhi **dua poin Sustainable Development Goals (
 
 ---
 
-## 🗄️ Skema Database
+## Skema Database
 
 ### Entity Relationship Diagram (ERD)
 
@@ -346,84 +321,3 @@ Platform ini dirancang untuk memenuhi **dua poin Sustainable Development Goals (
 | `created_at` | DATETIME | Waktu pengiriman permintaan |
 
 ---
-
-### Query Inti — Matchmaking Engine
-
-```sql
--- Menemukan pengguna yang keahliannya cocok dengan kebutuhan suatu proyek
-SELECT
-    u.id_user,
-    u.nama,
-    u.kategori_peran,
-    COUNT(us.id_skill) AS jumlah_skill_cocok
-FROM users u
-JOIN user_skills us ON u.id_user = us.id_user
-WHERE us.id_skill IN (
-    SELECT id_skill
-    FROM project_needs
-    WHERE id_project = :id_project_target
-      AND sudah_terisi = FALSE
-)
-AND u.id_user != :id_founder  -- Tidak merekomendasikan founder ke proyeknya sendiri
-GROUP BY u.id_user
-ORDER BY jumlah_skill_cocok DESC
-LIMIT 10;
-```
-
----
-
-## 🛠️ Tech Stack (Rencana)
-
-| Layer | Teknologi |
-|-------|-----------|
-| **Frontend** | HTML5, CSS3, JavaScript / React.js |
-| **Backend** | PHP / Node.js (Express) |
-| **Database** | MySQL / PostgreSQL |
-| **Deployment** | GitHub Pages (frontend) + Railway / Supabase (backend & DB) |
-| **Design Tool** | Figma |
-| **Version Control** | Git + GitHub |
-
----
-
-## 📁 Struktur Repository (Rencana)
-
-```
-skillbridge/
-├── 📄 README.md
-├── 📁 docs/
-│   ├── ERD.png              # Diagram ERD lengkap
-│   ├── wireframe/           # File mockup Figma / gambar
-│   └── proposal.pdf
-├── 📁 database/
-│   └── schema.sql           # Script CREATE TABLE
-├── 📁 frontend/
-│   ├── index.html
-│   ├── css/
-│   └── js/
-└── 📁 backend/
-    ├── config/
-    ├── routes/
-    └── models/
-```
-
----
-
-## 🗺️ Roadmap Pengembangan
-
-| Fase | Fokus | Status |
-|------|-------|--------|
-| **Fase 1** | Perancangan ERD & Wireframing UI/UX | 🔄 Dalam Progress |
-| **Fase 2** | Backend — relasi database & query matchmaking | 🔜 Belum Dimulai |
-| **Fase 3** | Frontend — antarmuka responsif & interaktif | 🔜 Belum Dimulai |
-| **Fase 4** | Integrasi & Pengujian | 🔜 Belum Dimulai |
-| **Fase 5** | Deployment ke cloud/server | 🔜 Belum Dimulai |
-
----
-
-<div align="center">
-
-**SkillBridge** — Dibuat dengan ❤️ untuk mendorong ekosistem inovator muda Indonesia
-
-*Memenuhi SDG 8 (Pekerjaan Layak) & SDG 17 (Kemitraan untuk Tujuan)*
-
-</div>
