@@ -8,9 +8,9 @@ Platform web yang menghubungkan para inovator muda untuk membangun startup, proy
 
 | No | Nama Lengkap | NIM | 
 |----|-------------|-----|
-| 1  | [Aisha Al Haura] | 140810250006 | 
-| 2  | [Aliyah Putri Wardani] | 140810250015 | 
-| 3  | [Daniel Chang] | 140810250045 | 
+| 1  | Aisha Al Haura | 140810250006 | 
+| 2  | Aliyah Putri Wardani | 140810250015 | 
+| 3  | Daniel Chang | 140810250045 | 
 
 ---
 
@@ -39,7 +39,7 @@ Dasbor terpusat untuk mengelola semua permintaan, notifikasi masuk, dan status k
 
 ---
 
-## 🎯 Tujuan (SDG Alignment)
+## Tujuan (SDG Alignment)
 
 ### SDG 8 — Pekerjaan Layak & Pertumbuhan Ekonomi
 *(Decent Work and Economic Growth)*
@@ -65,7 +65,7 @@ Dasbor terpusat untuk mengelola semua permintaan, notifikasi masuk, dan status k
 
 ---
 
-## 👤 Target Pengguna
+## Target Pengguna
 
 | Segmen | Deskripsi | Kebutuhan Utama |
 |--------|-----------|-----------------|
@@ -214,110 +214,5 @@ Dasbor terpusat untuk mengelola semua permintaan, notifikasi masuk, dan status k
 ### Entity Relationship Diagram (ERD)
 
 ```
-┌─────────────────┐         ┌──────────────────┐         ┌─────────────┐
-│     USERS       │         │   USER_SKILLS    │         │   SKILLS    │
-├─────────────────┤         ├──────────────────┤         ├─────────────┤
-│ id_user   [PK]  │──┐  ┌──│ id_user    [FK]  │──┐  ┌──│ id_skill [PK]│
-│ nama            │  │  │  │ id_skill   [FK]  │  │  │  │ nama_skill  │
-│ email           │  │  │  └──────────────────┘  │  │  └─────────────┘
-│ password_hash   │  │  │                         │  │
-│ bio             │  │  │  (Many-to-Many:         │  │  ┌─────────────────┐
-│ foto_profil     │  │  │   1 user bisa punya     │  │  │ PROJECT_NEEDS   │
-│ kategori_peran  │  │  │   banyak skill)         │  │  ├─────────────────┤
-│ kota            │  │  │                         └──┘──│ id_project [FK] │
-│ created_at      │  │  └─────────────────────────────  │ id_skill   [FK] │
-└─────────────────┘  │                                   └─────────────────┘
-        │            │
-        │            │  (Many-to-Many:
-        │            │   1 proyek butuh banyak skill)
-        │
-        │   ┌─────────────────────────────────────────┐
-        │   │              PROJECTS                    │
-        │   ├─────────────────────────────────────────┤
-        └───│ id_project    [PK]                       │
-            │ id_founder    [FK → users.id_user]       │
-            │ judul                                     │
-            │ deskripsi                                 │
-            │ tipe_proyek   (startup/kompetisi/freelance│
-            │ status        (open/closed/completed)     │
-            │ created_at                                │
-            └────────────────────┬────────────────────┘
-                                  │
-                     ┌────────────▼────────────┐
-                     │  PARTNERSHIP_REQUESTS   │
-                     ├─────────────────────────┤
-                     │ id_request   [PK]        │
-                     │ id_project   [FK]        │
-                     │ id_user      [FK]        │
-                     │ tipe_request (apply/invite│
-                     │ status (pending/accepted/ │
-                     │         declined)        │
-                     │ pesan                    │
-                     │ created_at               │
-                     └─────────────────────────┘
+![SkemaDatabase](img/SkemaDatabase.png)
 ```
-
----
-
-### Deskripsi Tabel
-
-#### `users` — Data pengguna terdaftar
-| Kolom | Tipe | Keterangan |
-|-------|------|-----------|
-| `id_user` | INT (PK, AUTO_INCREMENT) | Identifier unik pengguna |
-| `nama` | VARCHAR(100) | Nama lengkap |
-| `email` | VARCHAR(150) UNIQUE | Email untuk login |
-| `password_hash` | VARCHAR(255) | Password terenkripsi |
-| `bio` | TEXT | Deskripsi singkat diri |
-| `foto_profil` | VARCHAR(255) | Path/URL foto |
-| `kategori_peran` | ENUM('Hacker','Hustler','Hipster') | Arketipe utama pengguna |
-| `kota` | VARCHAR(100) | Lokasi pengguna |
-| `created_at` | DATETIME | Waktu pendaftaran |
-
-#### `skills` — Master data keahlian
-| Kolom | Tipe | Keterangan |
-|-------|------|-----------|
-| `id_skill` | INT (PK, AUTO_INCREMENT) | Identifier unik keahlian |
-| `nama_skill` | VARCHAR(100) UNIQUE | Nama keahlian (mis. "React.js", "Marketing") |
-| `kategori_skill` | VARCHAR(50) | Kelompok keahlian (Technical / Business / Creative) |
-
-#### `user_skills` — Keahlian yang dimiliki pengguna *(Supply)*
-| Kolom | Tipe | Keterangan |
-|-------|------|-----------|
-| `id_user` | INT (FK → users) | Referensi pengguna |
-| `id_skill` | INT (FK → skills) | Referensi keahlian |
-| `level` | ENUM('Beginner','Intermediate','Expert') | Tingkat kemahiran |
-| PRIMARY KEY | `(id_user, id_skill)` | Composite key |
-
-#### `projects` — Proyek / ide yang diposting
-| Kolom | Tipe | Keterangan |
-|-------|------|-----------|
-| `id_project` | INT (PK, AUTO_INCREMENT) | Identifier unik proyek |
-| `id_founder` | INT (FK → users) | Pemilik/pendiri proyek |
-| `judul` | VARCHAR(200) | Nama proyek |
-| `deskripsi` | TEXT | Penjelasan ide & tujuan |
-| `tipe_proyek` | ENUM('Startup','Kompetisi','Freelance','Riset') | Kategori proyek |
-| `status` | ENUM('Open','Closed','Completed') | Status rekrutmen |
-| `created_at` | DATETIME | Waktu posting |
-
-#### `project_needs` — Keahlian yang dibutuhkan proyek *(Demand)*
-| Kolom | Tipe | Keterangan |
-|-------|------|-----------|
-| `id_project` | INT (FK → projects) | Referensi proyek |
-| `id_skill` | INT (FK → skills) | Referensi keahlian yang dicari |
-| `peran_dibutuhkan` | ENUM('Hacker','Hustler','Hipster') | Arketipe yang dicari |
-| `sudah_terisi` | BOOLEAN DEFAULT FALSE | Status slot sudah diisi atau belum |
-| PRIMARY KEY | `(id_project, id_skill)` | Composite key |
-
-#### `partnership_requests` — Permintaan kemitraan antar pengguna
-| Kolom | Tipe | Keterangan |
-|-------|------|-----------|
-| `id_request` | INT (PK, AUTO_INCREMENT) | Identifier unik permintaan |
-| `id_project` | INT (FK → projects) | Proyek yang dimaksud |
-| `id_user` | INT (FK → users) | Pengguna yang terlibat |
-| `tipe_request` | ENUM('Apply','Invite') | Inisiatif dari pengguna atau founder |
-| `status` | ENUM('Pending','Accepted','Declined') | Status permintaan |
-| `pesan` | TEXT | Pesan/motivasi pendukung |
-| `created_at` | DATETIME | Waktu pengiriman permintaan |
-
----
