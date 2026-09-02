@@ -7,7 +7,7 @@ Platform web yang menghubungkan para inovator muda untuk membangun startup, proy
 ## Anggota Kelompok
 
 | No | Nama Lengkap | NIM | 
-|----|-------------|-----|-------|
+|----|-------------|-----|
 | 1  | [Aisha Al Haura] | [140810250006] | 
 | 2  | [Aliyah Putri Wardani] | [140810250015] | 
 | 3  | [Daniel Chang] | [140810250045] | 
