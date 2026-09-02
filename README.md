@@ -73,10 +73,7 @@ Dasbor terpusat untuk mengelola semua permintaan, notifikasi masuk, dan status k
 | **Mahasiswa Bisnis / Manajemen** | Memiliki ide bisnis dan kemampuan strategi namun tidak bisa membangun produk sendiri | Mencari technical co-founder (developer) |
 | **Mahasiswa Desain / Komunikasi** | Ahli di UI/UX, branding, dan komunikasi visual | Mencari tim untuk proyek desain + teknologi |
 | **Peserta Kompetisi** | Aktif mengikuti hackathon, business plan competition, atau GEMASTIK | Mencari anggota tim yang kompeten sesuai peran |
-| **Pemula di Dunia Startup** | Baru memasuki ekosistem startup dan ingin belajar sambil membangun | Mencari mentor atau co-founder berpengalaman |
-
-**Rentang Usia Target:** 18 – 28 tahun  
-**Geografi Awal:** Mahasiswa & fresh graduate di Indonesia  
+| **Pemula di Dunia Startup** | Baru memasuki ekosistem startup dan ingin belajar sambil membangun | Mencari mentor atau co-founder berpengalaman |  
 
 ---
 
