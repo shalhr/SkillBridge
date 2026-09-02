@@ -213,6 +213,4 @@ Dasbor terpusat untuk mengelola semua permintaan, notifikasi masuk, dan status k
 
 ### Entity Relationship Diagram (ERD)
 
-```
 ![SkemaDatabase](img/SkemaDatabase.png)
-```
