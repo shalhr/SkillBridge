@@ -104,4 +104,4 @@ Note: Untuk Mock Up sendiri hanya bersifat navigator kasar, Kemungkinan besar mo
 
 ## Skema Database
 
-![SkemaDatabase](img/SkemaDatabaseSkillBridge.drawio(1).png)
+![SkemaDatabase](img/SkemaDatabaseSkillBridge2.png)
