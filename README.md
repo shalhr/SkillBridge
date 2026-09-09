@@ -99,6 +99,7 @@ Dasbor terpusat untuk mengelola semua permintaan, notifikasi masuk, dan status k
 
 ![NotificationHub](img/5.png)
 
+Note: Untuk Mock Up sendiri hanya bersifat navigator kasar, Kemungkinan besar model aslinya akan berbeda / menyesuaikan
 ---
 
 ## Skema Database
